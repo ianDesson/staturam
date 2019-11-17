@@ -11,12 +11,11 @@ const $ = require("jquery");
  */
 const getAccessToken = async () => {
   console.log("POST for access_token");
-  await axios.post("https://api.wrnch.ai/v1/login", {
+  let responseToken = await axios.post("https://api.wrnch.ai/v1/login", {
     api_key: 'aafde657-5b01-4718-8902-78db258ea0b0'
   }).then((response) => {
-    console.log('response', response)
     return response.data.access_token;
-  });
+  });  return responseToken;
   /* var form = new FormData();
   form.append("api_key", 'aafde657-5b01-4718-8902-78db258ea0b0');
 

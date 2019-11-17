@@ -1,0 +1,130 @@
+{
+  "del-lado": {
+    "abajo": [
+      {
+        "left": {
+          "leaning-angle": 4.7387458517751515,
+          "shoulder-elbow-wrist": 144.41964063022215,
+          "hip-shoulder-elbow": 1.5628915642761712
+        },
+        "right": {
+          "leaning-angle": 2.0797435622673466,
+          "shoulder-elbow-wrist": null,
+          "hip-shoulder-elbow": 112.90475124685665
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 2.3460198886903383,
+          "shoulder-elbow-wrist": 156.41705099079155,
+          "hip-shoulder-elbow": 1.616315269189954
+        },
+        "right": {
+          "leaning-angle": 0.6461281463738596,
+          "shoulder-elbow-wrist": null,
+          "hip-shoulder-elbow": 65.34620111539431
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 11.540124936302098,
+          "shoulder-elbow-wrist": 23.123719558389055,
+          "hip-shoulder-elbow": 166.8287892914072
+        },
+        "right": {
+          "leaning-angle": 11.533270984243565,
+          "shoulder-elbow-wrist": 23.59267343230703,
+          "hip-shoulder-elbow": 158.7617578086962
+        }
+      }
+    ],
+    "en-medio": [
+      {
+        "left": {
+          "leaning-angle": 3.605313283924059,
+          "shoulder-elbow-wrist": 109.70792211184244,
+          "hip-shoulder-elbow": 24.54876841050084
+        },
+        "right": {
+          "leaning-angle": 4.071147272069554,
+          "shoulder-elbow-wrist": 130.20547046294286,
+          "hip-shoulder-elbow": 17.734033909485106
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 6.582614805865254,
+          "shoulder-elbow-wrist": 65.31241071348076,
+          "hip-shoulder-elbow": 155.98222026758194
+        },
+        "right": {
+          "leaning-angle": 5.936703942493613,
+          "shoulder-elbow-wrist": null,
+          "hip-shoulder-elbow": 109.46837734939416
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 4.371894405012304,
+          "shoulder-elbow-wrist": 64.81741361675286,
+          "hip-shoulder-elbow": 29.6088567104185
+        },
+        "right": {
+          "leaning-angle": 6.117980180344609,
+          "shoulder-elbow-wrist": 1.9869207586173356,
+          "hip-shoulder-elbow": 77.02011158925527
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 3.4776168120423376,
+          "shoulder-elbow-wrist": 72.08676151611733,
+          "hip-shoulder-elbow": 37.95635217074397
+        },
+        "right": {
+          "leaning-angle": 3.4572095327724273,
+          "shoulder-elbow-wrist": 103.05201318865477,
+          "hip-shoulder-elbow": 25.06727982416794
+        }
+      }
+    ],
+    "arriba": [
+      {
+        "left": {
+          "leaning-angle": 4.238079012884598,
+          "shoulder-elbow-wrist": 43.41352954155072,
+          "hip-shoulder-elbow": 45.310363260524646
+        },
+        "right": {
+          "leaning-angle": 10.08931849107959,
+          "shoulder-elbow-wrist": null,
+          "hip-shoulder-elbow": 50.742272116689435
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 2.40737915739413,
+          "shoulder-elbow-wrist": 42.89097812592491,
+          "hip-shoulder-elbow": 42.412375040867694
+        },
+        "right": {
+          "leaning-angle": 3.0904551401312084,
+          "shoulder-elbow-wrist": 90.4905003296712,
+          "hip-shoulder-elbow": 38.12551843174173
+        }
+      },
+      {
+        "left": {
+          "leaning-angle": 3.474593853740996,
+          "shoulder-elbow-wrist": 129.4889288406252,
+          "hip-shoulder-elbow": 40.77636225217985
+        },
+        "right": {
+          "leaning-angle": 6.527425944803264,
+          "shoulder-elbow-wrist": null,
+          "hip-shoulder-elbow": 56.4475319701722
+        }
+      }
+    ]
+  }
+}

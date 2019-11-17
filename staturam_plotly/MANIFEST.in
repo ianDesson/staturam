@@ -1,0 +1,7 @@
+include staturam_plotly/staturam_plotly.min.js
+include staturam_plotly/staturam_plotly.min.js.map
+include staturam_plotly/metadata.json
+include staturam_plotly/package-info.json
+include README.md
+include LICENSE
+include package.json

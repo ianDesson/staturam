@@ -6,14 +6,16 @@ const getAccessToken = require("../services/api/getAccessToken").getAccessToken;
 const submitJob = require("../services/api/submitJob").submitJob;
 
 function MyDropzone() {
-  const onDrop = useCallback(acceptedFiles => {
-    const accessToken = getAccessToken()
+  const onDrop = useCallback(async acceptedFiles => {
+    console.log('files', acceptedFiles) 
+    const accessToken = await getAccessToken()
       .then(accessToken => {
-        submitJob(accessToken, acceptedFiles[0]);
+        console.log('accessToken', accessToken);
       })
       .catch(error => {
         console.log(error);
       });
+      submitJob(accessToken, acceptedFiles[0]);
   }, []);
   const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
 
@@ -34,14 +36,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button
-          onClick={() => {
-            const accessToken = getAccessToken()
-              .then(response => {
-                submitJob(response, "./src/services/api/test.jpeg");
+          onClick={async () => {
+            const accessToken = await getAccessToken()
+              .then(accessToken => {
+                console.log('accessToken', accessToken);
               })
               .catch(error => {
                 console.log(error);
               });
+              submitJob(accessToken, "./src/services/api/test.jpeg");
           }}
         >
           SEND REQUEST
